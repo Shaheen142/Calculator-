@@ -44,7 +44,7 @@ input{
     margin: 10px;
     background: transparent;
     box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
-    font-size: 15vw;
+    font-size: 20px;
     text-align: right;
     corser: pointer;
     color: white;
@@ -52,14 +52,13 @@ input{
 
 input::placeholder{
     color: white;
-    fint-size: 35vw;
-}
+    fint-size: 20px;
 
 button{
     border: none;
-    width: 65px;
-    height: 65px;
-    margin: 5px;
+    width: 60;
+    height: 60px;
+    margin: 10px;
     border-radius: 50%;
     background: transparent;
     color: white;
@@ -80,8 +79,3 @@ button{
     color:#008702;
 }
 
-@media screen and (max-width: 600px;){
-    .calculator{
-        height: 600px;
-    }
-}
