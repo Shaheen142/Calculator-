@@ -55,7 +55,7 @@ input::placeholder{
     color: white;
     font-size: 20px;
 
-button{
+.calculator button{
     border: none;
     width: 55px;
     height: 55px;
