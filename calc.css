@@ -1,80 +1,67 @@
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.playfair-display{
+.playfair-display {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
-    
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
 }
 
-.calculator{
-    height: 460px;
-    width: 300px;
-   
-    border: 1px solid #717377;
-    border-radius: 16px;
-    padding: 20px;
-    background: transparent;
-    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
-    
+.calculator {
+  border: 1px solid #717377;
+  border-radius: 16px;
+  padding: 20px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
 }
 
-input{
-    width: 300px;
-    
-    border: none ;
-    padding: 10px;
-    margin: 10px;
-    background: transparent;
-    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
-    font-size: 20px;
-    text-align: right;
-    cursor: pointer;
-    color: white;
+input {
+  width: 300px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+  font-size: 40px;
+  text-align: right;
+  corser: pointer;
+  color: white;
 }
 
-input::placeholder{
-    color: white;
-    font-size: 20px;
-
-.calculator button{
-    border: none;
-    width: 55px;
-    height: 55px;
-    margin: 10px;
-    border-radius: 50%;
-    background: transparent;
-    color: white;
-    font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
-    cursor: pointer;
+input::placeholder {
+  color: white;
 }
 
-
-
-.eqlbtn{
-    background-color: orange;
+button {
+  border: none;
+  width: 55px;
+  height: 55px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  corser: pointer;
 }
 
-.operator{
-    color:#008702;
+.eqlbtn {
+  background-color: orange;
 }
 
+.operator {
+  color: #008702;
+}
