@@ -66,42 +66,14 @@ button {
   color: #008702;
 }
 
-@media screen and (max-width: 420px) {
-  .calculator {
-    width: 80vw;
-    height: 80vh;
-  }
-  button {
-    margin: 5px;
-  }
-  input {
-    height: 160px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .calculator {
     width: 100vw;
     height: 100vh;
   }
   button {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 5px;
-  }
-  input {
-    height: 160px;
-    margin-top: 80px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .calculator {
-    width: 100vw;
-    height: 100vh;
-  }
-  button {
-    margin-top: 15px;
-    margin-left: 15px;
   }
   input {
     height: 160px;
