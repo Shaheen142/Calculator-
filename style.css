@@ -65,3 +65,16 @@ button {
 .operator {
   color: #008702;
 }
+
+@media screen and (max-width: 420px) {
+  .calculator {
+    width: 80vw;
+    height: 80vh;
+  }
+  button {
+    margin: 5px;
+  }
+  input {
+    height: 160px;
+  }
+}
