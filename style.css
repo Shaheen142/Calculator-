@@ -93,3 +93,18 @@ button {
     margin-top: 80px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .calculator {
+    width: 100vw;
+    height: 100vh;
+  }
+  button {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  input {
+    height: 160px;
+    margin-top: 80px;
+  }
+}
